@@ -1,11 +1,35 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+bootstrap_integration:
+  type: PendingApplication
+  sender: mike
+  text: "Here is how one might integrate bootstrap into an angular application."
+  topic: views
 
-# This model initially had no columns defined.  If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+jquery:
+  type: PendingApplication
+  sender: chris
+  text: "jQuery? Anyone?"
+  topic: views
+
+routing:
+  type: PendingApplication
+  sender: jake
+  text: "Ways to implement routing."
+  topic: services
+
+jwt:
+  type: PendingApplication
+  sender: john
+  text: "I would like to tell about this new awesome way to implement authentication."
+  topic: authentication
+
+sessions:
+  type: PendingApplication
+  sender: jane
+  text: "I would like to tell about how I manage session in my applications."
+  topic: authentication
+
+class_model:
+  type: PendingApplication
+  sender: donald
+  text: "Here is how you should create your application model"
+  topic: best_practices

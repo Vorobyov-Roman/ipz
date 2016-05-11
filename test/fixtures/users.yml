@@ -1,11 +1,62 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+john:
+  username: john
+  email: john@example.com
+  login: john
+  password: 12345
+  categories: ieee_member, student
 
-# This model initially had no columns defined.  If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+jane:
+  username: jane
+  email: jane@example.com
+  login: jane
+  password: 12345
+  categories: regular_user
+
+mike:
+  username: mike
+  email: mike@example.com
+  login: mike
+  password: 12345
+  categories: ieee_member
+
+chris:
+  username: chris
+  email: chris@example.com
+  login: chris
+  password: 12345
+  categories: student
+
+jake:
+  username: jake
+  email: jake@example.com
+  login: jake
+  password: 12345
+  categories: student
+
+donald:
+  username: donald
+  email: donald@example.com
+  login: donald
+  password: 12345
+  categories: regular_user
+
+ted:
+  username: ted
+  email: ted@example.com
+  login: ted
+  password: 12345
+  categories: regular_user
+
+hillary:
+  username: hillary
+  email: hillary@example.com
+  login: hillary
+  password: 12345
+  categories: ieee_member
+
+bernie:
+  username: bernie
+  email: bernie@example.com
+  login: bernie
+  password: 12345
+  categories: regular_user
