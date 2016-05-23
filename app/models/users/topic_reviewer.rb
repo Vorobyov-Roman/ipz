@@ -2,8 +2,8 @@ class TopicReviewer < ActiveRecord::Base
   belongs_to :user
   belongs_to :topic
 
-  has_many :reviewed_applications, class_name: "ResolvedApplication"
-  has_many :claimed_applications, class_name: "PendingApplication"
+  has_many :reviewed_applications, class_name: "ResolvedApplication", foreign_key: "reviewer_id"
+  has_many :claimed_applications, class_name: "PendingApplication", foreign_key: "claimer_id"
 
   def claim_application(application)
     if application.pending? && application.topic == topic
